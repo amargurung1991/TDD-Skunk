@@ -14,12 +14,9 @@ public class Player
 		return this.playerName;
 	}
 	
-	public void set_points_this_round(int points)
-	{
-		this.pointsThisRound = this.pointsThisRound + points;
-	}
 	
-	public int get_points_this_round()
+	
+	public int getPointsThisRound()
 	{
 		return this.pointsThisRound;
 	}

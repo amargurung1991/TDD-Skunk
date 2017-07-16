@@ -31,6 +31,13 @@ public class SkunkTest {
 		assertEquals("yaz", player.getPlayerName());
 	}
 	
+	@Test
+	public void testPlayer1() {
+		Player player = new Player("yaz");
+		player.pointsThisRound(10);
+		assertEquals("yaz", player.getPlayerName());
+	}
+	
 	
 	
 }
