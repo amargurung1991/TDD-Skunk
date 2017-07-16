@@ -27,8 +27,8 @@ public class SkunkTest {
 	@Test
 	public void testPlayer() {
 		Player player = new Player("yaz");
-		player.get_player_name();
-		assertEquals("yaz", player.get_player_name());
+		player.getPlayerName();
+		assertEquals("yaz", player.getPlayerName());
 	}
 	
 	
