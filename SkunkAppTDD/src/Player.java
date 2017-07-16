@@ -14,7 +14,10 @@ public class Player
 		return this.playerName;
 	}
 	
-	
+	public void setPointThisRound(int points)
+	{
+		this.pointsThisRound = points;
+	}
 	
 	public int getPointsThisRound()
 	{
