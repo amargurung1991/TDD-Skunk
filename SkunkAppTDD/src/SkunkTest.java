@@ -9,8 +9,8 @@ public class SkunkTest {
 		Die D1 = new Die();
 		  int high = 6;
 		  int low = 1;
-		  assertTrue("Error, random is too high", high > D1.roll());
-		  assertTrue("Error, random is too low",  low  < D1.roll());
+		  assertTrue("Error, random is too high", high >= D1.roll());
+		  assertTrue("Error, random is too low",  low  <= D1.roll());
 		
 	}
 	
@@ -19,8 +19,8 @@ public class SkunkTest {
 		Dice D1 = new Dice();
 		  int high = 12;
 		  int low = 2;
-		  assertTrue("Error, random is too high", high > D1.roll());
-		  assertTrue("Error, random is too low",  low  < D1.roll());
+		  assertTrue("Error, random is too high", high >= D1.rollDice());
+		  assertTrue("Error, random is too low",  low  <= D1.rollDice());
 		
 	}
 	
